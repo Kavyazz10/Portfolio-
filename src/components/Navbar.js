@@ -6,7 +6,7 @@ import Container from "react-bootstrap/Container";
 import logo from "../Assets/Kasthuri-logo.svg";  
 import { Link } from "react-router-dom";
 import { CgGitFork } from "react-icons/cg";
-import { ImBlog } from "react-icons/im";
+/*import { ImBlog } from "react-icons/im";*/
 import {
   AiFillStar,
   AiOutlineHome,
@@ -89,7 +89,7 @@ function NavBar() {
               </Nav.Link>
             </Nav.Item>
 
-            {/* 🔁 Replace with your actual blog URL if you have one */}
+            {/* {🔁 Replace with your actual blog URL if you have one }
             <Nav.Item>
               <Nav.Link
                 href="https://yourbloglink.com"
@@ -98,7 +98,7 @@ function NavBar() {
               >
                 <ImBlog style={{ marginBottom: "2px" }} /> Blogs
               </Nav.Link>
-            </Nav.Item>
+            </Nav.Item>*/}
 
             {/* 🔁 Replace with your GitHub link */}
             <Nav.Item className="fork-btn">
